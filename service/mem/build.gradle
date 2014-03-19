@@ -1,0 +1,9 @@
+apply plugin: 'java'
+apply plugin: 'groovy'
+
+dependencies {
+    compile project(':persist:mem')
+    compile project(':service:api')
+    compile 'javax.inject:javax.inject:1'
+}
+

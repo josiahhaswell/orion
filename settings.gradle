@@ -1,0 +1,12 @@
+include (
+    'model', 
+    'persist', 
+    'service', 
+    ':persist:api',
+    ':persist:mem',
+    ':persist:jpa',
+    ':service:api',
+    ':service:mem',
+    ':sdk:api',
+    ':test'
+)

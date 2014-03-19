@@ -1,0 +1,6 @@
+apply plugin: 'java'
+
+dependencies {
+    compile 'org.jboss.resteasy:resteasy-jaxrs:3.0.6.Final'
+    compile project(':model')
+}
