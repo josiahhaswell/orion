@@ -8,5 +8,9 @@ include (
     ':service:api',
     ':service:mem',
     ':sdk:api',
+    ':web',
+    ':web:cdi',
+    ':web:web',
+    ':web:service',
     ':test'
 )
