@@ -6,4 +6,12 @@ dependencies {
     compile project(':service:api')
     compile project(':service:mem')
 
+    compile "org.jboss.spec:jboss-javaee-all-7.0:1.0.0.Final"
+    compile "junit:junit:4.11"
+
+    testCompile "org.jboss.arquillian.junit:arquillian-junit-container:1.1.3.Final"
+    testCompile "org.jboss.arquillian.container:arquillian-weld-ee-embedded-1.1:1.0.0.CR8"
+    testCompile "org.jboss.weld:weld-core:1.1.5.Final"
+    testCompile "org.slf4j:slf4j-simple:1.6.4"
+
 }
